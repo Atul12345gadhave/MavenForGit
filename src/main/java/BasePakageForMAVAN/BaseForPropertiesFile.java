@@ -7,20 +7,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import UtilityMavan.utilityForPropertiesfile;
 
-
-
-
-
 public class BaseForPropertiesFile {
 
-	
 protected static WebDriver driver;
 
-
-
-
 	public void LaunchNeoStox() throws IOException {
-		
 		
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Desktop\\Selenium\\chromedriver.exe");
